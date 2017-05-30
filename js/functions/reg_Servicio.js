@@ -169,7 +169,7 @@ $(document).ready(function(){
     console.log(servicioBuscado[0].imagen);
     
     contenedor.append('<center><div class="imageContainer">'+
-                      '<img src="'+servicioBuscado[0].imagen+'" alt="Icono servicio" class="ser_Image">'+
+                    //  '<img src="'+servicioBuscado[0].imagen+'" alt="" class="ser_Image">'+
                       '</div>'+
                       '<p><b> ID : </b>'+ servicioBuscado[0].id + '</p>'+
                       '<p><b> Nombre : </b> '+ servicioBuscado[0].nombre + '</p>'+
